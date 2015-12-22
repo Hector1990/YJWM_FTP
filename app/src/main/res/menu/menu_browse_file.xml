@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_new_folder"
+        android:icon="@drawable/menu_new_folder"
+        android:title="@string/menu_download"
+        app:showAsAction="always" />
+
+    <!--<item-->
+    <!--android:id="@+id/action_download"-->
+    <!--android:title="@string/menu_download"-->
+    <!--android:icon="@drawable/menu_download"-->
+    <!--app:showAsAction="ifRoom" />-->
+
+    <item
+        android:id="@+id/action_exit"
+        android:icon="@drawable/menu_exit"
+        android:title="@string/menu_exit"
+        app:showAsAction="ifRoom" />
+
+</menu>

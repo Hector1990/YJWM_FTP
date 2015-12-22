@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">FTPClient</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="ip_hint">Ip address</string>
+    <string name="port_hint">Port</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="log_in_button">Log in</string>
+    <string name="reset_button">Reset</string>
+    <string name="login_fail_toast">Login Fail!</string>
+    <string name="login_in_progress">Login...</string>
+    <string name="title_activity_browse_file">BrowseFileActivity</string>
+
+    <string name="menu_exit">Exit</string>
+    <string name="menu_download">Download</string>
+    <string name="menu_new_folder">New folder</string>
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_new_dir_title">New Folder</string>
+    <string name="dialog_update_title">Update Folder Name</string>
+    <string name="dialog_delete_title">Delete File</string>
+    <string name="dialog_upload_title">Upload File</string>
+    <string name="dialog_download_title">Download File</string>
+
+    <string name="new_dir_success">Create Directory Success</string>
+    <string name="new_dir_fail">Create Directory Fail</string>
+    <string name="update_success">Update Success</string>
+    <string name="update_fail">Update Fail</string>
+    <string name="delete_success">Delete Success</string>
+    <string name="delete_fail">Delete Fail</string>
+    <string name="open_folder_fail">You can not open this folder</string>
+    <string name="upload_success">Upload Success</string>
+    <string name="upload_fail">Upload Fail</string>
+    <string name="download_success">Download Success</string>
+    <string name="download_fail">Download Fail</string>
+
+    <string name="progress_loading">Loading...</string>
+    <string name="progress_downloading">Downloading...</string>
+    <string name="progress_uploading">Uploading...</string>
+
+    <string name="message_delete">Are you sure to delete the file </string>
+    <string name="message_upload">Are you sure to upload the file </string>
+    <string name="message_download">Are you sure to download the file </string>
+
+    <string name="tag_update">Update</string>
+    <string name="tag_delete">Delete</string>
+    <string name="tag_download">Download</string>
+</resources>

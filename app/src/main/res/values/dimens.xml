@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="components_low_margin">8dp</dimen>
+    <dimen name="components_normal_margin">16dp</dimen>
+
+    <dimen name="login_module_top_margin">80dp</dimen>
+    <dimen name="login_module_corners_radius">10dp</dimen>
+    <dimen name="login_module_elevation">10dp</dimen>
+
+    <dimen name="textview_height">48dp</dimen>
+    <dimen name="port_textview_width">86dp</dimen>
+
+    <dimen name="button_height">48dp</dimen>
+
+    <dimen name="list_two_line_height">72dp</dimen>
+
+    <dimen name="icon_size">48dp</dimen>
+
+    <dimen name="big_corners_radius">100dp</dimen>
+
+    <dimen name="line_height">1dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="file_title_size">16sp</dimen>
+    <dimen name="file_size_size">12sp</dimen>
+    <dimen name="file_time_size">12sp</dimen>
+
+    <dimen name="dialog_normal_margin">24dp</dimen>
+    <dimen name="dialog_low_margin">20dp</dimen>
+    <dimen name="dialog_elevation">24dp</dimen>
+    <dimen name="dialog_button_height">36dp</dimen>
+    <dimen name="dialog_button_min_width">64dp</dimen>
+    <dimen name="dialog_title_text_size">16sp</dimen>
+    <dimen name="dialog_content_text_size">14sp</dimen>
+    <dimen name="dialog_button_text_size">14sp</dimen>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingTop="@dimen/dialog_normal_margin">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dialog_normal_margin"
+        android:layout_marginRight="@dimen/dialog_normal_margin"
+        android:textColor="@color/dialog_title_color"
+        android:textSize="@dimen/dialog_title_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_title"
+        android:layout_marginLeft="@dimen/dialog_normal_margin"
+        android:layout_marginRight="@dimen/dialog_normal_margin"
+        android:layout_marginTop="@dimen/dialog_low_margin"
+        android:textColor="@color/dialog_content_color"
+        android:textSize="@dimen/dialog_content_text_size" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/dialog_message"
+        android:layout_marginTop="@dimen/dialog_normal_margin"
+        android:orientation="horizontal"
+        android:padding="@dimen/components_low_margin">
+
+        <TextView
+            android:id="@+id/bt_negative"
+            style="@style/DialogButtonTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dialog_button_height"
+            android:gravity="center"
+            android:text="@string/dialog_cancel" />
+
+        <TextView
+            android:id="@+id/bt_positive"
+            style="@style/DialogButtonTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dialog_button_height"
+            android:layout_marginLeft="@dimen/components_low_margin"
+            android:text="@string/dialog_ok" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="line_color">#D8D8D8</color>
+
+    <color name="login_button">#64B5F6</color>
+    <color name="reset_button">#9B9B9B</color>
+
+    <color name="hint_color">#DBDBDB</color>
+
+    <color name="file_title_color">#333333</color>
+    <color name="file_size_color">#666666</color>
+    <color name="file_time_color">#666666</color>
+
+    <color name="dialog_title_color">#333333</color>
+    <color name="dialog_content_color">#666666</color>
+    <color name="dialog_button_color">#64B5F6</color>
+</resources>
